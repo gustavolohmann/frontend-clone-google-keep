@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Google Keep Clone
 
-## Getting Started
+Este é um clone do Google Keep desenvolvido com **Next.js**, **React**, **TypeScript** e **TailwindCSS**. O objetivo deste projeto é replicar a interface e funcionalidades básicas do Google Keep, como criação, edição e organização de notas.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **TailwindCSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Lucide React**: Ícones modernos e personalizáveis.
+- **JWT Decode**: Para decodificação de tokens JWT.
+- **JS-Cookie**: Para manipulação de cookies no navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Instalação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/frontend-clone-google-keep.git
+   cd frontend-clone-google-keep
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+   npm install
+   npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+   http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Funcionalidades
+Login com validação de email e senha.
+Criação, edição e exclusão de notas.
+Pesquisa de notas por título ou conteúdo.
+Interface responsiva e amigável.
 
-## Deploy on Vercel
+📂 Estrutura do Projeto
+src/app: Contém as páginas e componentes principais.
+src/app/components: Componentes reutilizáveis como Header e Sidebar.
+src/app/login: Página de login com validação e autenticação.
+src/app/page.tsx: Página principal para gerenciamento de notas.
+🛠️ Scripts Disponíveis
+npm run dev: Inicia o servidor de desenvolvimento.
+npm run build: Gera a build de produção.
+npm run start: Inicia o servidor de produção.
+npm run lint: Executa o linter para verificar problemas no código.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
